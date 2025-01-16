@@ -91,7 +91,7 @@ console.log("Datentyp Array - Länge eines String im verschachtelten Array", mix
 // Prüfung auf Typen - typeof Operator
 console.log("Datentyp Array - Typprüfung", typeof foodList[3] === "undefined");
 
-Datentyp Objekt
+// Datentyp Objekt
 
 const spongeCakeRecipe = {
 	name: "Schwammkuchen",
@@ -133,27 +133,6 @@ console.log(sayMyName("Andy", "Junginger"));
 const myName = sayMyName("Berta", "Mops");
 
 console.log(myName);
-
-const spongeCakeRecipe = {
-	name: "Schwammkuchen",
-	duration: 60,
-	showDifficulty: function (value) {
-		return `Das Rezept ist ${value}`;
-	},
-	categories: ["Cakes", "Kids", "Sweet"],
-	comments: [
-		{
-			userId: "232322-23233",
-			comment: "Nice!"
-		},
-		{
-			userId: "1232434-23233",
-			comment: "Yummi!"
-		}
-	]
-};
-
-console.log(spongeCakeRecipe.showDifficulty("einfach"));
 
 let myCar;
 setTimeout(function() {
