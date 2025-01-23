@@ -3,7 +3,7 @@ import showBooleanExamples from "./modules/booleans.js";
 import showObjectExamples from "./modules/objects.js";
 import showStringExamples from "./modules/strings.js";
 import {showNumberExamples, showArithmeticExamples, showCoercionExamples} from "./modules/numbers.js";
-import {sayMyName, whatsMyCar} from "./modules/functions.js";
+import {giveMeARandomPokemon, sayMyName, whatsMyCar} from "./modules/functions.js";
 
 showArrayExamples();
 showBooleanExamples();
@@ -19,6 +19,4 @@ console.log(name);
 whatsMyCar("Opel");
 whatsMyCar(13);
 
-
-
-
+giveMeARandomPokemon();
